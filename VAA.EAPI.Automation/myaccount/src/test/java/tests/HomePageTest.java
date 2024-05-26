@@ -27,6 +27,7 @@ public class HomePageTest {
 
         // Verify the page title
         String expectedTitle = "Virgin Atlantic";
+        
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle, expectedTitle, "Unexpected page title");
 
